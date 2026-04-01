@@ -1,0 +1,36 @@
+@charset "UTF-8"; /*Definição de codificação de caracteres*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif; /*Fonte padrão do site*/
+    
+}
+
+body {
+    background-image: linear-gradient(to right, #BFBFBD, #A69B8F); /*Cor de fundo da página*/
+}
+
+main { 
+    background-color: aliceblue; /*Cor de fundo do container*/
+    border-radius: 10px; /*Arredondar as bordas do container*/
+    box-shadow: 5px 5px 12px #736151e0; /*Sombra do container*/
+    width: 600px; /*Largura do container*/
+    padding: 10px; /*Espaçamento interno do container*/
+    margin: auto; /*Centralizar o container na página*/
+}
+
+h1 { 
+   color: #736151; /*Cor do título*/
+   text-align: center; /*Centralizar o título*/
+   text-shadow: 1px 1px 4px #736151; /*Sombra do título*/
+
+}
+
+h2 {
+    color: #402313; /*Cor do subtítulo*/
+
+}
+
+p {
+    text-align: justify; /*Justificar o texto*/
+    
+}
