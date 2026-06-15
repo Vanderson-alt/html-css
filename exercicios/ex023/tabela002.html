@@ -12,6 +12,7 @@
         table {
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,6 +30,16 @@
         thead, tfoot {
             background-color: rgb(46, 46, 46);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(46, 46, 46);
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         .number {
@@ -94,17 +105,61 @@
                 </tr>
                 <tr>
                     <td>Pará</td>
-                    <td class="number">8.790.745</td>
+                    <td class="number">8.711.745</td>
                 </tr>
                 <tr>
                     <td>Santa Catarina</td>
                     <td class="number">7.610.361</td>
                 </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td class="number">7.423.629</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td class="number">7.018.211</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td class="number">4.321.616</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td class="number">4.154.468</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td class="number">4.126.854</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso</td>
+                    <td class="number">3.893.659</td>
+                </tr>
+                <tr>
+                    <td>Rio grande do Norte</td>
+                    <td class="number">3.455.236</td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td class="number">3.384.547</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td class="number">3.220.848</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td class="number">2.996.899</td>
+                </tr>
+                <tr>
+                    <td>Mato Grosso do Sul</td>
+                    <td class="number">2.924.631</td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <th scope="row">Total de Habitantes</th>
-                    <td>213,500.000</td>
+                    <td>204.767.023</td>
                 </tr>
             </tfoot>
             <caption>População das Unidades Federativas</caption>
